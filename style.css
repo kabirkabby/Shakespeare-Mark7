@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&display=swap');
+
+
+:root {
+    --primary: #1b1b1b;
+    --black: #000000;
+    --White: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Cormorant', serif;
+    color: var(--black);
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+    color:aliceblue
+}
+
+main {
+    margin: auto;
+    padding: 2.5rem;
+    max-width: 600px;
+}
+
+textarea {
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 1rem;
+    width: 100%;
+    min-height: 20vh;
+    display: block;
+    font-size: large;
+    font-family: inherit;
+    text-align: center;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    border-radius: 0.5rem;
+    margin: 3rem 0rem;
+    padding: 1rem 3rem;
+    font-family: inherit;
+    font-size: large;
+    align-self : center;
+    color: #ffffff;
+
+}
+
+#output {
+    box-sizing: border-box;
+    border: 1px solid black;
+    min-height: 15vh;
+    max-height: 25vh;
+    width: 100%;
+    overflow: scroll;
+}
+
+footer {
+    font-size: large;
+    position: fixed;
+    background-color: var(--primary);
+    bottom: 0;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    color: #ffffff;
+
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+}
